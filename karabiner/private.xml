@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>CHROME</appname>
+    <equal>com.google.Chrome</equal>
+  </appdef>
+  <appdef>
+    <appname>ITERM</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+  <appdef>
+    <appname>SAFARI</appname>
+    <equal>com.apple.Safari</equal>
+  </appdef>
+  <appdef>
+    <appname>FINDER</appname>
+    <equal>com.apple.finder</equal>
+  </appdef>
+  <item>
+    <name>TERMINAL stuff</name>
+    <appendix>COMMAND+W to copy</appendix>
+    <appendix>COMMAND+F to word forward</appendix>
+    <appendix>COMMAND+B to word backward</appendix>
+    <appendix>COMMAND+D to delete word</appendix>
+    <appendix>COMMAND+V to page up</appendix>
+    <appendix>COMMAND+T to transpose word</appendix>
+    <appendix>COMMAND+SHIFT+, to go to top</appendix>
+    <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
+    <only>ITERM</only>
+    <identifier>private.terminals.stuff</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::W, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::W
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::F
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::B, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::B
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::D, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::D
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::COMMAND_L,
+      KeyCode::PAGEUP
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::T, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::T
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::COMMA, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+      KeyCode::ESCAPE, KeyCode::COMMA, ModifierFlag::SHIFT_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::DOT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+      KeyCode::ESCAPE, KeyCode::DOT, ModifierFlag::SHIFT_L
+    </autogen>
+  </item>
+  <item>
+    <name>BROWSERS stuff</name>
+    <appendix>CONTROL+T to open tab</appendix>
+    <appendix>CONTROL+W to close tab</appendix>
+    <appendix>CONTROL+R to refresh page</appendix>
+    <appendix>CONTROL+S to search</appendix>
+    <appendix>CONTROL+L to URL bar</appendix>
+    <appendix>CONTROL+G to escape</appendix>
+    <appendix>CONTROL+V to page down</appendix>
+    <appendix>COMMAND+V to page up</appendix>
+    <appendix>COMMAND+F to word forward</appendix>
+    <appendix>COMMAND+B to word backward</appendix>
+    <appendix>COMMAND+D to delete word</appendix>
+    <appendix>CONTROL+BACKSPACE to backspace over word</appendix>
+    <appendix>COMMAND+SHIFT+, to go to top</appendix>
+    <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
+    <only>CHROME, SAFARI, FINDER</only>
+    <identifier>private.browsers.new.tab</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::T, ModifierFlag::CONTROL_L,
+      KeyCode::T, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::W, ModifierFlag::CONTROL_L,
+      KeyCode::W, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::R, ModifierFlag::CONTROL_L,
+      KeyCode::R, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::CONTROL_L,
+      KeyCode::F, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::L, ModifierFlag::CONTROL_L,
+      KeyCode::L, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::G, ModifierFlag::CONTROL_L,
+      KeyCode::ESCAPE
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::CONTROL_L,
+      KeyCode::PAGEDOWN
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::COMMAND_L,
+      KeyCode::PAGEUP
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::D, ModifierFlag::COMMAND_L,
+      KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::COMMAND_L,
+      KeyCode::F, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::B, ModifierFlag::COMMAND_L,
+      KeyCode::B, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::DELETE, ModifierFlag::CONTROL_L,
+      KeyCode::DELETE, ModifierFlag::OPTION_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::COMMA, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+      KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::DOT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+      KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+</root>
