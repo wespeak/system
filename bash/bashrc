@@ -23,6 +23,7 @@ alias gc="git commit"
 BLUE="\[\033[1;34m\]"
 YELLOW="\[\033[0;93m\]"
 RED="\[\033[0;31m\]"
+WHITE="\[\033[0;37m\]"
 
 # prompt
 GIT_PS1_SHOWDIRTYSTATE="true"
@@ -30,4 +31,4 @@ GIT_PS1_SHOWSTASHSTATE="true"
 GIT_PS1_SHOWUNTRACKEDFILES="true"
 GIT_PS1_SHOWUCOLORHINTS="true"
 GIT_PS1_SHOWUPSTREAM="auto"
-export PS1="${BLUE}[${YELLOW}\w${RED}\$(__git_ps1 \" (%s)\")${BLUE}] "
+export PS1="${BLUE}[${YELLOW}\w${RED}\$(__git_ps1 \" (%s)\")${BLUE}]${WHITE} "
