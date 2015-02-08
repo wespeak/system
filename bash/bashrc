@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+
+source $HOME/.git-prompt.sh
+
+# default editor
+export EDITOR="emacs"
+alias e="$EDITOR"
+
+# 'll' alias
+alias ll="ls -l"
+
+# git aliases
+alias gs="git status"
+alias gd="git diff"
+alias gl="git log"
+alias gk="git checkout"
+alias gb="git branch"
+alias ga="git add"
+alias gc="git commit"
+
+# prompt
+GIT_PS1_SHOWDIRTYSTATE="true"
+GIT_PS1_SHOWSTASHSTATE="true"
+GIT_PS1_SHOWUNTRACKEDFILES="true"
+GIT_PS1_SHOWUCOLORHINTS="true"
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
