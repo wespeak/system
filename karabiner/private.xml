@@ -18,6 +18,7 @@
   </appdef>
   <item>
     <name>TERMINAL stuff</name>
+    <appendix>COMMAND+X to meta+X</appendix>
     <appendix>COMMAND+W to copy</appendix>
     <appendix>COMMAND+F to word forward</appendix>
     <appendix>COMMAND+B to word backward</appendix>
@@ -28,6 +29,11 @@
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
     <only>ITERM</only>
     <identifier>private.terminals.stuff</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::X, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::X
+    </autogen>
     <autogen>
       __KeyToKey__
       KeyCode::W, ModifierFlag::COMMAND_L,
