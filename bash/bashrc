@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+# imports
 source $HOME/.git-prompt.sh
 
 # default editor
