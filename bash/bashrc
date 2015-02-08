@@ -19,10 +19,15 @@ alias gb="git branch"
 alias ga="git add"
 alias gc="git commit"
 
+#colors
+BLUE="\[\033[1;34m\]"
+YELLOW="\[\033[0;93m\]"
+RED="\[\033[0;31m\]"
+
 # prompt
 GIT_PS1_SHOWDIRTYSTATE="true"
 GIT_PS1_SHOWSTASHSTATE="true"
 GIT_PS1_SHOWUNTRACKEDFILES="true"
 GIT_PS1_SHOWUCOLORHINTS="true"
 GIT_PS1_SHOWUPSTREAM="auto"
-PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+PS1="${BLUE}[${YELLOW}\w${RED}$(__git_ps1 " (%s)")${BLUE}] "
