@@ -27,6 +27,8 @@
     <appendix>COMMAND+T to transpose word</appendix>
     <appendix>COMMAND+SHIFT+, to go to top</appendix>
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
+    <appendix>CONTROL+TAB to tab right</appendix>
+    <appendix>CONTROL+SHIFT+TAB to tab left</appendix>
     <only>ITERM</only>
     <identifier>private.terminals.stuff</identifier>
     <autogen>
@@ -73,6 +75,16 @@
       __KeyToKey__
       KeyCode::DOT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
       KeyCode::ESCAPE, KeyCode::DOT, ModifierFlag::SHIFT_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::TAB, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L,
+      KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::TAB, ModifierFlag::CONTROL_L,
+      KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
     </autogen>
   </item>
   <item>
