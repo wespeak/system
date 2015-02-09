@@ -103,6 +103,8 @@
     <appendix>CONTROL+BACKSPACE to backspace over word</appendix>
     <appendix>COMMAND+SHIFT+, to go to top</appendix>
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
+    <appendix>CONTROL++ to zoom in</appendix>
+    <appendix>CONTROL+- to zoom out</appendix>
     <only>CHROME, SAFARI, FINDER</only>
     <identifier>private.browsers.new.tab</identifier>
     <autogen>
@@ -174,6 +176,16 @@
       __KeyToKey__
       KeyCode::DOT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
       KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::EQUAL, ModifierFlag::CONTROL_L,
+      KeyCode::EQUAL, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::MINUS, ModifierFlag::CONTROL_L,
+      KeyCode::MINUS, ModifierFlag::COMMAND_L
     </autogen>
   </item>
 </root>
