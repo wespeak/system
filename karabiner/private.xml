@@ -105,6 +105,8 @@
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
     <appendix>CONTROL++ to zoom in</appendix>
     <appendix>CONTROL+- to zoom out</appendix>
+    <appendix>CONTROL+N to down arrow</appendix>
+    <appendix>CONTROL+P to up arrow</appendix>
     <only>CHROME, SAFARI, FINDER</only>
     <identifier>private.browsers.new.tab</identifier>
     <autogen>
@@ -186,6 +188,16 @@
       __KeyToKey__
       KeyCode::MINUS, ModifierFlag::CONTROL_L,
       KeyCode::MINUS, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::N, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::P, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_UP
     </autogen>
   </item>
 </root>
