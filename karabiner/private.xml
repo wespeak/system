@@ -25,6 +25,7 @@
     <appendix>COMMAND+D to delete word</appendix>
     <appendix>COMMAND+V to page up</appendix>
     <appendix>COMMAND+T to transpose word</appendix>
+    <appendix>COMMAND+Q to fill paragraph</appendix>
     <appendix>COMMAND+SHIFT+, to go to top</appendix>
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
     <appendix>CONTROL+TAB to tab right</appendix>
@@ -65,6 +66,11 @@
       __KeyToKey__
       KeyCode::T, ModifierFlag::COMMAND_L,
       KeyCode::ESCAPE, KeyCode::T
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Q, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::Q
     </autogen>
     <autogen>
       __KeyToKey__
