@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+# path
+PATH=$PATH:$HOME/Applications/activator-1.3.0-minimal
+
 # imports
 source $HOME/.git-prompt.sh
 
