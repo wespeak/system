@@ -7,7 +7,8 @@ PATH=$PATH:$HOME/Applications/activator-1.3.0-minimal:$HOME/Applications/scala-2
 source $HOME/.git-prompt.sh
 
 # default editor
-export EDITOR="emacs"
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+export EDITOR="emacs -nw"
 alias e="$EDITOR"
 
 # 'll' alias
