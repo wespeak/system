@@ -16,6 +16,10 @@
     <appname>FINDER</appname>
     <equal>com.apple.finder</equal>
   </appdef>
+  <appdef>
+    <appname>EMACS</appname>
+    <equal>org.gnu.Emacs</equal>
+  </appdef>
   <item>
     <name>TERMINAL stuff</name>
     <appendix>COMMAND+X to meta+X</appendix>
@@ -31,7 +35,7 @@
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
     <appendix>CONTROL+TAB to tab right</appendix>
     <appendix>CONTROL+SHIFT+TAB to tab left</appendix>
-    <only>ITERM</only>
+    <only>ITERM, EMACS</only>
     <identifier>private.terminals.stuff</identifier>
     <autogen>
       __KeyToKey__
