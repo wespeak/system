@@ -1,0 +1,5 @@
+;; disable menu-bar
+(menu-bar-mode -1)
+
+;; associate scss files with css-mode
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . css-mode))
