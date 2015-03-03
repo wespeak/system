@@ -35,3 +35,5 @@ GIT_PS1_SHOWUNTRACKEDFILES="true"
 GIT_PS1_SHOWUCOLORHINTS="true"
 GIT_PS1_SHOWUPSTREAM="auto"
 export PS1="${BLUE}[${YELLOW}\w${RED}\$(__git_ps1 \" (%s)\")${BLUE}]${WHITE} "
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
