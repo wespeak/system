@@ -22,6 +22,7 @@ alias gk="git checkout"
 alias gb="git branch"
 alias ga="git add"
 alias gc="git commit"
+alias gr="git rebase"
 
 #colors
 BLUE="\[\033[1;34m\]"
