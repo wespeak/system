@@ -3,3 +3,6 @@
 
 ;; associate scss files with css-mode
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . css-mode))
+
+;; make C-x C-g goto line
+(global-set-key (kbd "C-x C-g") 'goto-line)
