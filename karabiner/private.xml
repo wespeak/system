@@ -31,6 +31,8 @@
     <appendix>COMMAND+T to transpose word</appendix>
     <appendix>COMMAND+Q to fill paragraph</appendix>
     <appendix>COMMAND+Y to paste previous</appendix>
+    <appendix>COMMAND+U to uppercase</appendix>
+    <appendix>COMMAND+L to lowercase</appendix>
     <appendix>COMMAND+SHIFT+, to go to top</appendix>
     <appendix>COMMAND+SHIFT+. to go to bottom</appendix>
     <appendix>CONTROL+TAB to tab right</appendix>
@@ -81,6 +83,26 @@
       __KeyToKey__
       KeyCode::Y, ModifierFlag::COMMAND_L,
       KeyCode::ESCAPE, KeyCode::Y
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::U, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::U
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::U, ModifierFlag::COMMAND_R,
+      KeyCode::ESCAPE, KeyCode::U
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::L, ModifierFlag::COMMAND_L,
+      KeyCode::ESCAPE, KeyCode::L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::L, ModifierFlag::COMMAND_R,
+      KeyCode::ESCAPE, KeyCode::L
     </autogen>
     <autogen>
       __KeyToKey__
