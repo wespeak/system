@@ -145,6 +145,7 @@
     <appendix>CONTROL+- to zoom out</appendix>
     <appendix>CONTROL+N to down arrow</appendix>
     <appendix>CONTROL+P to up arrow</appendix>
+    <appendix>CONTROL+U to page source</appendix>
     <only>CHROME, SAFARI, FINDER</only>
     <identifier>private.browsers.new.tab</identifier>
     <autogen>
@@ -236,6 +237,11 @@
       __KeyToKey__
       KeyCode::P, ModifierFlag::CONTROL_L,
       KeyCode::CURSOR_UP
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::U, ModifierFlag::CONTROL_L,
+      KeyCode::U, ModifierFlag::COMMAND_R | ModifierFlag::OPTION_R
     </autogen>
   </item>
 </root>
