@@ -13,3 +13,7 @@
 
 ;; disable tabs
 (setq-default indent-tabs-mode nil)
+
+;; previous buffer/next buffer as C-Z and C-Q
+(global-set-key (kbd "C-Z") 'next-buffer)
+(global-set-key (kbd "C-Q") 'previous-buffer)
